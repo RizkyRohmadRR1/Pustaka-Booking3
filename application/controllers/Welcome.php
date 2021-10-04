@@ -5,11 +5,12 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		echo"<h1>Perkenalan</h1>";
-		echo"Nama			:Rizky Rohmad R<br>
-			Tempat Lahir	:Kulon Progo<br>
-			Tanggal Lahir	:11 Agustus<br>
-			Tempat Tinggal	:Pengasih, Wates, Kulon Progo, DIY<br>
-			Motivasi Kuliah :";
+		$this->load->view('welcome_message');
+	}
+	public function penjumlahan($nil1,$nil2)
+	{
+		$this->load->Model('Model_latihan1');
+		$hasil = $this->Model_latihan1->jumlah($nil1,$nil2);
+		echo "<h4>Hasil Penjumlahan dari :</h4>" .$nil1. "+" .$nil2. "+" .$hasil;
 	}
 }
