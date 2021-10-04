@@ -7,10 +7,5 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
-	public function penjumlahan($nil1,$nil2)
-	{
-		$this->load->Model('Model_latihan1');
-		$hasil = $this->Model_latihan1->jumlah($nil1,$nil2);
-		echo "<h4>Hasil Penjumlahan dari :</h4>" .$nil1. "+" .$nil2. "+" .$hasil;
-	}
+	
 }
