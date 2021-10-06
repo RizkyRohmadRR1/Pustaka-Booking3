@@ -1,0 +1,64 @@
+body{
+    background-image: url('../image/B.jpg');
+    background-size: cover;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+#wrapper{
+    background: cornflowerblue;
+    margin: 20px;
+}
+
+#wrapper header{
+    background: violet;
+    padding: 20px;
+}
+
+#wrapper header hgroup{
+    float: left;
+    color: white;
+}
+
+#wrapper header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+#wrapper header nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper header nav ul li{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper header nav ul li{
+    float: left;
+    list-style: none;
+}
+
+#wrapper header nav ul li a{
+    padding: 10px;
+    text-decoration: blueviolet;
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    background: blueviolet;
+    padding: 20px;
+}
+
+footer a{
+    color: white;
+    text-decoration: rebeccapurple;
+}
+
+.section{
+    padding: 20px;
+}
