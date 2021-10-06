@@ -1,28 +1,44 @@
 body{
-    background-image: url('../image/B.jpg');
-    background-size: cover;
+    background-image: url('../image/C.jpg');
+    background-size: Cover;
     font-size: 12px;
     font-family: Arial;
 }
 
 #wrapper{
-    background: cornflowerblue;
-    margin: 20px;
+    background: transparent;
+    color: black;
+    padding: 15px;
+    margin: 15px;
+    word-spacing: 1,5px;
 }
 
 #wrapper header{
-    background: violet;
+    background: ivory;
     padding: 20px;
 }
 
 #wrapper header hgroup{
     float: left;
-    color: white;
+    color:black;
 }
 
 #wrapper header nav{
     float: right;
-    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 12;
+    margin-top: 5px;
+}
+
+#wrapper header nav:hover{
+    background: lightblue;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    box-shadow: inset;
+    color: rosybrown;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #wrapper header nav ul{
@@ -41,8 +57,8 @@ body{
 }
 
 #wrapper header nav ul li a{
-    padding: 10px;
-    text-decoration: blueviolet;
+    padding: 20px;
+    text-decoration: black;
 }
 
 .clear{
@@ -50,15 +66,14 @@ body{
 }
 
 footer{
-    background: blueviolet;
+    background: transparent;
     padding: 20px;
 }
 
 footer a{
-    color: white;
-    text-decoration: rebeccapurple;
+    color: black;
+    text-decoration: none;
 }
-
-.section{
+section{
     padding: 20px;
 }

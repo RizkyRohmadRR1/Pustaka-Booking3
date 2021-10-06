@@ -1,5 +1,5 @@
 <footer>
-    <center><a href="bsi.ac.id">Web by Me</a></center>
+    <marquee><a href="bsi.ac.id">Copyright@2021</a></marquee>
 </footer>
     </div>
 </body>
